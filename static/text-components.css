@@ -1,0 +1,172 @@
+:root {
+  /* Material Design type scale */
+  --text-7xl: 6rem;
+  --text-6xl: 3.75rem;
+  --text-5xl: 3rem;
+  --text-4xl: 2.125rem;
+  --text-3xl: 1.875rem;
+  --text-2xl: 1.5rem;
+  --text-xl: 1.25rem;
+  --text-lg: 1.25rem;
+  --text-lg-sub: 1rem;
+  --text-base: 1rem;
+  --text-sm: 0.875rem;
+  --text-xs: 0.75rem;
+  --text-2xs: 0.625rem;
+  --text-btn: 0.875rem;
+}
+/* Apple type scale */
+:root .sf {
+  --text-3xl: 1.75rem;
+  --text-2xl: 1.375rem;
+  --text-lg: 1.0625rem;
+  --text-lg-sub: 0.9375rem;
+  --text-base: 1.0625rem;
+  --text-sm: 1rem;
+  --text-2xs: 0.6875rem;
+  --text-btn: 0.8125rem;
+}
+/* Microsoft type scale */
+:root .segoe {
+  --text-5xl: 2.875rem;
+}
+
+/* text components */
+.headline1 {
+  @apply text-7xl font-light;
+  --leading: 25;
+  letter-spacing: calc(-1.5 / 96 * 1em);
+}
+.headline2 {
+  @apply text-6xl font-light;
+  --leading: 16;
+  letter-spacing: calc(-0.5 / 60 * 1em);
+}
+.headline3 {
+  @apply text-5xl font-normal;
+  --leading: 13;
+}
+.heading1 {
+  @apply text-4xl font-normal leading-10;
+  letter-spacing: calc(0.25 / 34 * 1em);
+  --leading: 10;
+}
+.heading2 {
+  @apply text-3xl font-normal leading-8;
+  --leading: 8;
+}
+.heading3 {
+  @apply text-2xl font-normal leading-7;
+  --leading: 7;
+}
+.heading4 {
+  @apply text-xl font-normal leading-6;
+  --leading: 6;
+}
+.title {
+  @apply text-lg font-medium leading-6;
+  letter-spacing: calc(0.15 / 20 * 1em);
+  --leading: 6;
+}
+.subtitle {
+  @apply text-lg-sub font-normal leading-6;
+  letter-spacing: calc(0.15 / 16 * 1em);
+  --leading: 6;
+}
+.body1 {
+  @apply text-base font-normal leading-6;
+  letter-spacing: calc(0.44 / 16 * 1em);
+  --leading: 6;
+}
+.body2 {
+  @apply text-sm font-normal leading-5;
+  letter-spacing: calc(0.25 / 14 * 1em);
+  --leading: 5;
+}
+.caption1 {
+  @apply text-xs font-normal leading-4;
+  letter-spacing: calc(0.4 / 12 * 1em);
+  --leading: 4;
+}
+.caption2 {
+  @apply text-2xs font-medium leading-4;
+  letter-spacing: calc(1.5 / 10 * 1em);
+  text-transform: uppercase;
+  --leading: 4;
+}
+.button {
+  @apply text-btn font-medium leading-6;
+  letter-spacing: calc(0.1 / 14 * 1em);
+  --leading: 6;
+}
+.action {
+  @apply text-btn font-medium leading-4;
+  letter-spacing: calc(1.35 / 14 * 1em);
+  text-transform: uppercase;
+  --leading: 4;
+}
+
+/* As per Material guidelines */
+.roboto .body1 {
+  @apply leading-7;
+  --leading: 7;
+}
+
+.segoe * {
+  /* As per Microsoft guidelines */
+  letter-spacing: normal;
+}
+/* Keep letter spacing for headlines, and all caps components */
+.segoe .headline1 {
+  letter-spacing: calc(-1.5 / 96 * 1em);
+}
+.segoe .headline2 {
+  letter-spacing: calc(-0.5 / 60 * 1em);
+}
+.segoe .caption2 {
+  letter-spacing: calc(1.5 / 10 * 1em);
+}
+.segoe .action {
+  letter-spacing: calc(1.35 / 14 * 1em);
+}
+.segoe .headline3, .segoe .heading1, .segoe .heading2 {
+  @apply font-light;
+}
+.segoe .heading3 {
+  @apply leading-7;
+  font-weight: 350; /* Semilight */
+  --leading: 7;
+}
+.segoe .title {
+  @apply font-semibold;
+}
+.segoe .body2 {
+  @apply leading-5;
+  --leading: 5;
+}
+.segoe .caption2, .segoe .button, .segoe .action {
+  @apply font-semibold;
+}
+
+.sf * {
+  /* SF NS (system-ui on OSX and iOS) font sets letter spacing values automatically */
+  letter-spacing: normal;
+  text-transform: none;
+}
+.sf .title {
+  @apply font-semibold;
+}
+.sf .subtitle {
+  @apply leading-5;
+  --leading: 5;
+}
+.sf .caption2 {
+  @apply font-normal;
+}
+.sf .button {
+  @apply font-normal leading-5;
+  --leading: 5;
+}
+.sf .action {
+  @apply font-bold;
+}

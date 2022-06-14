@@ -1,0 +1,20 @@
+hu-HU
+00637254-9526-8852-0156-00002be3cc43
+186934.xml
+https://nexiuscontentpremium.blob.core.windows.net/00637254-9526-8852-0156-00002be3cc43/content/page/186934.xml?sv=2016-05-31&sr=c&sig=aUR%2BAUty2d5PTKntVXmp4JVI6AEtQDU9hCO%2B43JeFwI%3D&st=2020-07-14T14%3A54%3A31Z&se=2020-07-14T21%3A24%3A31Z&sp=r
+
+en-GB
+00637279-8148-2982-5808-00002b8c1643
+176026.xml
+https://nexiuscontent.blob.core.windows.net/public/457b1e42-dfe8-a41a-0fdc-97f1fe4e9763/00637279-8148-2982-5808-00002b8c1643/content/page/176026.xml
+
+exercises
+https://nexiuscontent.blob.core.windows.net/public/457b1e42-dfe8-a41a-0fdc-97f1fe4e9763/00637279-8148-2982-5808-00002b8c1643/content/exercise/798828.xml
+
+
+https://nexiuscontentpremium.blob.core.windows.net/00637254-9526-8852-0156-00002be3cc43/content/exercise/703445.xml?sv=2016-05-31&sr=c&sig=iE45kAcAzfqeAsISYe0WK8vf5w%2Fx3lAP51vIsyNFVGI%3D&st=2020-07-15T15%3A20%3A09Z&se=2020-07-15T21%3A50%3A09Z&sp=r
+
+
+C típusú jogosítvány
+hu-HU
+https://nexiuscontent.blob.core.windows.net/00636256-8579-6402-4915-0000de3e2b08/content/exercise/704722.xml?sv=2018-03-28&sr=c&sig=LCJyC6OT13yu3GZ3W2JRmJKWAAtfnBKHar%2FB9uQtSVs%3D&st=2022-01-23T17%3A14%3A54Z&se=2022-01-23T23%3A44%3A54Z&sp=r
